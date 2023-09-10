@@ -14,7 +14,6 @@ int** genRandMatrix(int size, int maxValue)
         {
             matrix[j][i] = rand()%maxValue;
         }
-        //matrix[j][first+1] = 0;
     }
     matrix[size] = 0;
 
